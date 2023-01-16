@@ -1,0 +1,16 @@
+{
+    "env": {
+        "node": true
+    },
+    "extends": [
+        "eslint-config-airbnb-base",
+        "eslint-plugin-import"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-console":"off",
+        "import/extensions":"off"
+    }
+}
