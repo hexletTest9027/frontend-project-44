@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/hexletTest9027/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/hexletTest9027/frontend-project-44/actions)",
@@ -15,6 +16,9 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hexletTest9027/frontend-project-44/issues"
+  },
+  "bin": {
+    "brain-games": "bin/brain-games.js"
   },
   "homepage": "https://github.com/hexletTest9027/frontend-project-44#readme"
 }
