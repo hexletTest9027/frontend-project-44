@@ -3,8 +3,7 @@
         "node": true
     },
     "extends": [
-        "eslint-config-airbnb-base",
-        "eslint-plugin-import"
+        "eslint-config-airbnb-base"
     ],
     "parserOptions": {
         "ecmaVersion": "latest"
