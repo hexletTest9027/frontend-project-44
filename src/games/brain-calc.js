@@ -1,24 +1,36 @@
 import readlineSync from 'readline-sync';
 import cli from '../cli.js';
+import getRandomInteger from '../utils/utils.js';
+
+const getRandomAction = () => {
+  const random = getRandomInteger(1, 3);
+  switch (random) {
+    case 1:
+      return '+';
+    case 2:
+      return '-';
+    case 3:
+      return '*';
+    default:
+      return '+';
+  }
+};
 
 const brainCalc = () => {
   cli();
   for (let i = 0; i < 3; i += 1) {
-    let action;
+    let action = getRandomAction();
     const firstNumber = Math.floor(Math.random() * 100) + 1;
     const secondNumber = Math.floor(Math.random() * 100) + 1;
     let coorectAnswer;
-    switch (i) {
-      case 0:
-        action = '+';
+    switch (action) {
+      case '+':
         coorectAnswer = firstNumber + secondNumber;
         break;
-      case 1:
-        action = '-';
+      case '-':
         coorectAnswer = firstNumber - secondNumber;
         break;
-      case 2:
-        action = '*';
+      case '*':
         coorectAnswer = firstNumber * secondNumber;
         break;
       default:
