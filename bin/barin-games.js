@@ -1,11 +1,4 @@
-import readlineSync from 'readline-sync';
+#!/usr/bin/env node
+import cli from '../src/cli.js';
 
-const cli = () => {
-  console.log('brain-games');
-  console.log('Welcome to the Brain Games!');
-  const name = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${name}!`);
-  return name;
-};
-
-export default cli;
+cli();
