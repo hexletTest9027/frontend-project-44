@@ -10,7 +10,7 @@ const brainEven = () => {
   }
   return ({
     task: 'Answer "yes" if the number is even, otherwise answer "no".',
-    question: `Question: ${randomInteger}`,
+    question: `${randomInteger}`,
     rightAnswer: isEven === true ? 'yes' : 'no',
   });
 };

@@ -16,7 +16,7 @@ const game = () => {
   const commonDivider = findCommonDivider(num1, num2);
   return ({
     task: 'Find the greatest common divisor of given numbers.',
-    question: `Question: ${num1} ${num2}`,
+    question: `${num1} ${num2}`,
     rightAnswer: commonDivider,
   });
 };

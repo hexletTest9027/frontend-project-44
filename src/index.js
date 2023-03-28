@@ -9,7 +9,7 @@ export default function foo(game) {
   console.log(task);
   for (let i = 0; i < 3; i += 1) {
     const { question, rightAnswer } = game();
-    console.log(question);
+    console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer:');
     if (answer.toString() === rightAnswer.toString()) {
       console.log('Correct!');

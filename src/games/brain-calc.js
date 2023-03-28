@@ -34,7 +34,7 @@ const brainCalc = () => {
 
   return ({
     task: 'What is the result of the expression?',
-    question: `Question: ${firstNumber} ${action} ${secondNumber}`,
+    question: `${firstNumber} ${action} ${secondNumber}`,
     rightAnswer: coorectAnswer,
   });
 };
