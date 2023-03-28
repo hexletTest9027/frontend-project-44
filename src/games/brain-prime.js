@@ -12,7 +12,7 @@ const brainPime = () => {
   return ({
     task: 'Answer "yes" if given number is prime. Otherwise answer "no".',
     question: number,
-    rightAnswer: isPrime(number) ? 'yes' : 'false',
+    rightAnswer: isPrime(number) ? 'yes' : 'no',
   });
 };
 
