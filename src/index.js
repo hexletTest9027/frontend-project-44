@@ -16,5 +16,6 @@ export default function startGame(game) {
       console.log(`${answer} is wrong answer ;(. Correct answer was ${rightAnswer}.Let's try again, ${name}!`);
       return;
     }
+    console.log(`Congratulations, ${name}!`);
   }
 }
