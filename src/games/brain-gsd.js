@@ -20,4 +20,5 @@ const game = () => {
     rightAnswer: commonDivider,
   });
 };
+
 export default game;
