@@ -2,13 +2,8 @@
 
 [![Actions Status](https://github.com/hexletTest9027/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/hexletTest9027/frontend-project-44/actions)
 <a href="https://codeclimate.com/github/hexletTest9027/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/57437e64a9ed469beedb/maintainability" /></a>
-Hi there! Welcome to the Brain Games project. This project includes 5 games:
 
-- **brain-even**: Answer "yes" if the number is even, otherwise answer "no".
-- **brain-calc**: Input the result of the expression.
-- **brain-progression**: Insert the missing number in the progression.
-- **brain-prime**: Answer "yes" if the given number is prime. Otherwise, answer "no".
-- **brain-gcd**: Find the greatest common divisor of given numbers.
+Welcome to the Brain Games project! This project includes 5 games: brain-even, brain-calc, brain-progression, brain-prime, and brain-gcd. Each game challenges your brain in a different way, from testing your ability to recognize even numbers to finding the greatest common divisor of given numbers.
 
 To get started, follow these steps:
 
@@ -16,6 +11,6 @@ To get started, follow these steps:
 2. Navigate to the "FRONTEND-PROJECT-44" folder.
 3. Use NPM to install required packages by running "npm install".
 4. To start a game, use this pattern: "make [game name]".
-5. Enjoy the game! 😎🎮
+5. Try to win each game and challenge yourself!
 
-Let me know if you have any other questions or need further assistance. 😉
+This is my first HEXLET-PROJECT. I hope you have fun playing these games and improving your brain's abilities. Let me know if you have any questions or need further assistance. 😊🧠🎮

@@ -2,7 +2,7 @@
   "type": "module",
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/hexletTest9027/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/hexletTest9027/frontend-project-44/actions)",
+  "description": "Welcome to the Brain Games project! This project includes 5 games: brain-even, brain-calc, brain-progression, brain-prime, and brain-gcd. Each game challenges your brain in a different way, from testing your ability to recognize even numbers to finding the greatest common divisor of given numbers.",
   "main": "index.js",
   "repository": {
     "type": "git",
