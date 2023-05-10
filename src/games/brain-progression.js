@@ -1,6 +1,6 @@
 import random from '../utils/utils.js';
 
-const constbrainProgression = () => {
+const brainProgression = () => {
   const progress = [];
   const base = random(1, 100);
   const coef = random(1, 10);
@@ -17,4 +17,4 @@ const constbrainProgression = () => {
   });
 };
 
-export default constbrainProgression;
+export default brainProgression;

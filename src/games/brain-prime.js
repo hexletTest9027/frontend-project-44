@@ -7,7 +7,7 @@ const isPrime = (num) => {
   return num > 1;
 };
 
-const brainPime = () => {
+const brainPrime = () => {
   const number = random(1, 100);
   return ({
     task: 'Answer "yes" if given number is prime. Otherwise answer "no".',
@@ -16,4 +16,4 @@ const brainPime = () => {
   });
 };
 
-export default brainPime;
+export default brainPrime;

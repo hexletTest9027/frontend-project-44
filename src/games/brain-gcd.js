@@ -10,7 +10,7 @@ const findCommonDivider = (num1, num2) => {
   return 1;
 };
 
-const game = () => {
+const brainGCD = () => {
   const num1 = getRandomInteger(1, 100);
   const num2 = getRandomInteger(1, 100);
   const commonDivider = findCommonDivider(num1, num2);
@@ -21,4 +21,4 @@ const game = () => {
   });
 };
 
-export default game;
+export default brainGCD;
